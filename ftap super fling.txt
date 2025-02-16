@@ -3,7 +3,7 @@ local userinputs = game:GetService("UserInputService")
 local w = game:GetService("Workspace")
 local r = game:GetService("RunService")
 local d = game:GetService("Debris")
-local strength = 10000
+local strength = 900
 local fling = true
 
 w.ChildAdded:Connect(function(model)
@@ -32,4 +32,4 @@ w.ChildAdded:Connect(function(model)
 			end)
 		end
 	end
-end)
+end
